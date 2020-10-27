@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9gDgoZaoMGWxFN+5khV8h2y6QnZrKS0+EL7mZTqabaSaAstJh8omy1f6+tNn0G6bPvoUFfhAKODWwYzoNOz6Ag==",
+  "dgSpecHash": "b2KE3rEi3pKmJ8qX5qC7nW+99hF8KsfYTs+9xERea04P9jQgMMxIJJB2f5u2UwxYBQyNpkyyllbR+KKlhixhgA==",
   "success": true,
   "projectFilePath": "/home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
   "expectedPackageFiles": [
+    "/home/user/.nuget/packages/npgsql/5.0.0-preview1/npgsql.5.0.0-preview1.nupkg.sha512",
+    "/home/user/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
     "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
   ],
   "logs": []
