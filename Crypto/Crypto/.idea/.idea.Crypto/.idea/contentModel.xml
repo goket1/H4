@@ -31,6 +31,7 @@
         </e>
       </e>
       <e p="LoginSystem" t="IncludeRecursive">
+        <e p="Hash.cs" t="Include" />
         <e p="LoginSystem.csproj" t="IncludeRecursive" />
         <e p="Program.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
