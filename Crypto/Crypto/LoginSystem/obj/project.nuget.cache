@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9gDgoZaoMGWxFN+5khV8h2y6QnZrKS0+EL7mZTqabaSaAstJh8omy1f6+tNn0G6bPvoUFfhAKODWwYzoNOz6Ag==",
+  "success": true,
+  "projectFilePath": "/home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}
