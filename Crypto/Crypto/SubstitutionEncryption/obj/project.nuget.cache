@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "IZInU8ANaof5NYOwwsWpCbHt98hc8YaVEEBM7qZR7jpmcCqyYjHuQYu6cG5oZpKRZaKut1WpwcABXlIKZ2dIbA==",
+  "success": true,
+  "projectFilePath": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
+  "expectedPackageFiles": [
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+  ],
+  "logs": []
+}

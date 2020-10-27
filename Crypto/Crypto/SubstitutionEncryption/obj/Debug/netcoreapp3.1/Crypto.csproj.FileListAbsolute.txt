@@ -1,0 +1,11 @@
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/bin/Debug/netcoreapp3.1/Crypto
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/bin/Debug/netcoreapp3.1/Crypto.deps.json
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/bin/Debug/netcoreapp3.1/Crypto.runtimeconfig.json
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/bin/Debug/netcoreapp3.1/Crypto.runtimeconfig.dev.json
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/bin/Debug/netcoreapp3.1/Crypto.dll
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/bin/Debug/netcoreapp3.1/Crypto.pdb
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/obj/Debug/netcoreapp3.1/Crypto.csprojAssemblyReference.cache
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/obj/Debug/netcoreapp3.1/Crypto.AssemblyInfoInputs.cache
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/obj/Debug/netcoreapp3.1/Crypto.AssemblyInfo.cs
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/obj/Debug/netcoreapp3.1/Crypto.dll
+/home/user/hovedforløb/H4/Crypto/Crypto/Crypto/obj/Debug/netcoreapp3.1/Crypto.pdb
