@@ -7,7 +7,106 @@
     <projectFile>Hashing/Hashing.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6113dcef-e198-4980-b50b-7ca5c875ae99" name="Default Changelist" comment="" />
+    <list default="true" id="6113dcef-e198-4980-b50b-7ca5c875ae99" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Crypto.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/CryptoRandomVSRandom.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Hash.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Hashing.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hashing/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/Decrypter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/Encrypter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/SubstitutionEncryption.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/Crypto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/Crypto.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/Crypto.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/Crypto.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.runtimeconfig.dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Crypto.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Crypto.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Crypto.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/Crypto.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +164,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected=".NET Project.Hashing">
@@ -123,6 +222,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="LoginSystem" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/LoginSystem/LoginSystem.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="RNGCryptoServiceProvidervsRandom" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -153,7 +270,7 @@
       <workItem from="1603701005795" duration="1375000" />
       <workItem from="1603703237292" duration="28216000" />
       <workItem from="1603788301243" duration="55000" />
-      <workItem from="1603788405342" duration="131000" />
+      <workItem from="1603788405342" duration="493000" />
     </task>
     <servers />
   </component>
@@ -262,10 +379,14 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="244" y="139" key="RiderGenerateDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603725006425" />
-    <state x="457" y="159" key="SettingsEditor" timestamp="1603788535996">
+    <state x="457" y="159" key="SettingsEditor" timestamp="1603788878146">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="457" y="159" key="SettingsEditor/0.0.1920.1052@0.0.1920.1052" timestamp="1603788535996" />
+    <state x="457" y="159" key="SettingsEditor/0.0.1920.1052@0.0.1920.1052" timestamp="1603788878146" />
+    <state x="556" y="259" key="Vcs.Push.Dialog.v2" timestamp="1603788827992">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="556" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1052@0.0.1920.1052" timestamp="1603788827992" />
     <state x="192" y="100" width="1728" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603712455095">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
@@ -274,10 +395,10 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="599" y="113" width="722" height="831" key="find.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1603709661261" />
-    <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603788333361">
+    <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603788655652">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603788333361" />
+    <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603788655652" />
     <state x="623" y="233" key="search.everywhere.popup" timestamp="1603704306694">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>

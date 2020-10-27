@@ -30,6 +30,18 @@
           </e>
         </e>
       </e>
+      <e p="LoginSystem" t="IncludeRecursive">
+        <e p="LoginSystem.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="LoginSystem.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="SubstitutionEncryption" t="IncludeRecursive">
         <e p="Decrypter.cs" t="Include" />
         <e p="Encrypter.cs" t="Include" />
