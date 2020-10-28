@@ -57,6 +57,19 @@
           </e>
         </e>
       </e>
+      <e p="SymmetricEncryption" t="IncludeRecursive">
+        <e p="Crypt.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="SymmetricEncryption.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SymmetricEncryption.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="packages" t="ExcludeRecursive" />
     </e>
   </component>

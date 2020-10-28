@@ -6,6 +6,7 @@
     <projectFile>CryptoRandomVSRandom/CryptoRandomVSRandom.csproj</projectFile>
     <projectFile>Hashing/Hashing.csproj</projectFile>
     <projectFile>LoginSystem/LoginSystem.csproj</projectFile>
+    <projectFile>SymmetricEncryption/SymmetricEncryption.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -26,11 +27,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6113dcef-e198-4980-b50b-7ca5c875ae99" name="Default Changelist" comment="Login system part 1 donerif">
+    <list default="true" id="6113dcef-e198-4980-b50b-7ca5c875ae99" name="Default Changelist" comment="Updated login system to use Password Based Key Derivation">
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/Crypt.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/SymmetricEncryption.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/Debug/netcoreapp3.1/SymmetricEncryption.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/Debug/netcoreapp3.1/SymmetricEncryption.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/Debug/netcoreapp3.1/SymmetricEncryption.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginSystem/Hash.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/Hash.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LoginSystem/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crypto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Crypto.sln" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +58,12 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54E51DB7-4175-4089-91E8-64EE775B8BC9/1B/NpgsqlDataReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SubstitutionEncryption/Encrypter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3A0F354-F9A7-4A6A-BFB2-1B6DAC71D3BC/43/e247fea5/KeyedHashAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/Program.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SubstitutionEncryption/Decrypter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SubstitutionEncryption/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FD95449-DB6C-4738-91D5-01EE7F6E5E44/c4/b1923a8b/SHA512CryptoServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3A0F354-F9A7-4A6A-BFB2-1B6DAC71D3BC/25/9d4d91aa/HMAC.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/Program.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -77,6 +92,8 @@
         <option value="$PROJECT_DIR$/Hashing/Program.cs" />
         <option value="$PROJECT_DIR$/LoginSystem/Hash.cs" />
         <option value="$PROJECT_DIR$/LoginSystem/Program.cs" />
+        <option value="$PROJECT_DIR$/SymmetricEncryption/Crypt.cs" />
+        <option value="$PROJECT_DIR$/SymmetricEncryption/Program.cs" />
       </list>
     </option>
   </component>
@@ -96,7 +113,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.LoginSystem">
+  <component name="RunManager" selected=".NET Project.SymmetricEncryption">
     <configuration name="Crypto" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -187,6 +204,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="SymmetricEncryption" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SymmetricEncryption/SymmetricEncryption.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -201,7 +236,7 @@
       <workItem from="1603788301243" duration="55000" />
       <workItem from="1603788405342" duration="493000" />
       <workItem from="1603791499412" duration="14839000" />
-      <workItem from="1603867381180" duration="166000" />
+      <workItem from="1603867381180" duration="6073000" />
     </task>
     <task id="LOCAL-00001" summary="Added a new solution for user login system assignment">
       <created>1603791564483</created>
@@ -231,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603807175598</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated login system to use Password Based Key Derivation">
+      <created>1603867631858</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1603867631858</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,29 +302,30 @@
     <MESSAGE value="Added a new solution for user login system assignment" />
     <MESSAGE value="Added Npgsql to LoginSystem" />
     <MESSAGE value="Login system part 1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login system part 1 done" />
+    <MESSAGE value="Updated login system to use Password Based Key Derivation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated login system to use Password Based Key Derivation" />
   </component>
   <component name="WindowStateProjectService">
     <state x="744" y="270" key="FileChooserDialogImpl" timestamp="1603787788481">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="744" y="270" key="FileChooserDialogImpl/0.0.1920.1052@0.0.1920.1052" timestamp="1603787788480" />
-    <state width="1874" height="359" key="GridCell.Tab.0.bottom" timestamp="1603832375949">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom" timestamp="1603881508788">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1603832375949" />
-    <state width="1874" height="359" key="GridCell.Tab.0.center" timestamp="1603832375948">
+    <state width="1874" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1603881508788" />
+    <state width="1874" height="278" key="GridCell.Tab.0.center" timestamp="1603881508788">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1603832375948" />
-    <state width="1874" height="359" key="GridCell.Tab.0.left" timestamp="1603832375948">
+    <state width="1874" height="278" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1603881508788" />
+    <state width="1874" height="278" key="GridCell.Tab.0.left" timestamp="1603881508788">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1603832375948" />
-    <state width="1874" height="359" key="GridCell.Tab.0.right" timestamp="1603832375949">
+    <state width="1874" height="278" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1603881508788" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right" timestamp="1603881508788">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="359" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1603832375949" />
+    <state width="1874" height="278" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1603881508788" />
     <state width="1874" height="359" key="GridCell.Tab.1.bottom" timestamp="1603832375952">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
@@ -347,10 +390,10 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.4.right/0.0.1920.1052@0.0.1920.1052" timestamp="1603832375955" />
-    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size" timestamp="1603791526675">
+    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size" timestamp="1603875445472">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1052@0.0.1920.1052" timestamp="1603791526675" />
+    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1052@0.0.1920.1052" timestamp="1603875445472" />
     <state x="244" y="139" key="RiderGenerateDialog" timestamp="1603725006426">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
@@ -359,30 +402,34 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="457" y="159" key="SettingsEditor/0.0.1920.1052@0.0.1920.1052" timestamp="1603788878146" />
-    <state x="556" y="259" key="Vcs.Push.Dialog.v2" timestamp="1603807179896">
+    <state x="556" y="259" width="808" height="540" key="Vcs.Push.Dialog.v2" timestamp="1603867638099">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="556" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1052@0.0.1920.1052" timestamp="1603807179896" />
+    <state x="556" y="259" width="808" height="540" key="Vcs.Push.Dialog.v2/0.0.1920.1052@0.0.1920.1052" timestamp="1603867638099" />
     <state width="960" height="526" key="XDebugger.FullValuePopup" timestamp="1603797665270">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state width="960" height="526" key="XDebugger.FullValuePopup/0.0.1920.1052@0.0.1920.1052" timestamp="1603797665270" />
-    <state x="192" y="100" width="1728" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603712455095">
+    <state x="192" y="100" width="1728" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603876594051">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="192" y="100" width="1728" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603712455095" />
-    <state x="599" y="113" width="722" height="831" key="find.popup" timestamp="1603709661261">
+    <state x="192" y="100" width="1728" height="858" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603876594051" />
+    <state x="1092" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1603877091699">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="599" y="113" width="722" height="831" key="find.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1603709661261" />
+    <state x="1092" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1052@0.0.1920.1052" timestamp="1603877091699" />
+    <state x="599" y="113" width="722" height="831" key="find.popup" timestamp="1603878480939">
+      <screen x="0" y="0" width="1920" height="1052" />
+    </state>
+    <state x="599" y="113" width="722" height="831" key="find.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1603878480939" />
     <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1603788655652">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603788655652" />
-    <state x="624" y="240" key="run.anything.popup" timestamp="1603796111723">
+    <state x="624" y="240" key="run.anything.popup" timestamp="1603878262500">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="624" y="240" key="run.anything.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1603796111723" />
+    <state x="624" y="240" key="run.anything.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1603878262500" />
     <state x="623" y="233" key="search.everywhere.popup" timestamp="1603704306694">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
