@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginSystem", "LoginSystem\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SymmetricEncryption", "SymmetricEncryption\SymmetricEncryption.csproj", "{CD471901-9E80-4496-864A-C8FD5A9E4B72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAReceiver", "RSAReceiver\RSAReceiver.csproj", "{3189D2A9-C1FC-4698-A258-6D6B743CBB4B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{CD471901-9E80-4496-864A-C8FD5A9E4B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD471901-9E80-4496-864A-C8FD5A9E4B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD471901-9E80-4496-864A-C8FD5A9E4B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3189D2A9-C1FC-4698-A258-6D6B743CBB4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3189D2A9-C1FC-4698-A258-6D6B743CBB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3189D2A9-C1FC-4698-A258-6D6B743CBB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3189D2A9-C1FC-4698-A258-6D6B743CBB4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
