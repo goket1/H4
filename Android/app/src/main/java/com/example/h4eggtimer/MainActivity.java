@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TimerListener{
 
     public TimerManagerLocal timerManagerLocal = new TimerManagerLocal();
     TextView timerTextView;
@@ -56,22 +56,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void StartTimer(){
-        this.timerManagerLocal.StartTimer();
         this.toggleEggButtons(false);
         startStopButton.setText("Stop"); //set the text on Start / Stop button
     }
 
     public void StopTimer(){
-        this.timerManagerLocal.StopTimer();
         this.toggleEggButtons(true);
         startStopButton.setText("Start"); //set the text on Start / Stop button
     }
 
     public void onButtonStartStopClicked(View view){
         if(this.timerManagerLocal.GetRunning()){
+            timerManagerLocal.removeListener(this);
             this.StopTimer();
+            this.timerManagerLocal.StopTimer();
         }else {
+            timerManagerLocal.addListener(this);
             this.StartTimer();
+            this.timerManagerLocal.StartTimer();
         }
+    }
+
+    @Override
+    public void onCountDown(String timeLeftFormatted) {
+        timerTextView.setText(timeLeftFormatted);
+    }
+
+    @Override
+    public void onEggTimerStopped() {
+        StopTimer();
     }
 }

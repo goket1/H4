@@ -1,21 +1,34 @@
 package com.example.h4eggtimer;
 
-import android.os.Handler;
 import android.util.Log;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+import java.util.ListIterator;
 
 public class TimerManagerLocal extends Thread implements TimerManager {
 
     boolean timerRunning = false;
     Cookable cookable;
     int timer = 0;
+    List<TimerListener> timerListeners = new ArrayList<TimerListener>();
 
     @Override
     public void run() {
         Log.d("Custom", String.format("Timer started", GetTimeLeft(), GetFormatedTime()));
-        while(GetTimeLeft() >= 0){
-            if(this.timerRunning){
+        while (GetTimeLeft() >= 0) {
+            if (this.timerRunning) {
                 SubtractFromTime(1);
                 Log.d("Custom", String.format("Timer running value: %s formated: %s", GetTimeLeft(), GetFormatedTime()));
+                for (TimerListener l : timerListeners) {
+                    l.onCountDown(GetFormatedTime());
+                }
                 try {
                     Thread.sleep(1000);
                 } catch (InterruptedException e) {
@@ -39,9 +52,9 @@ public class TimerManagerLocal extends Thread implements TimerManager {
 
     @Override
     public String GetFormatedTime() {
-        if(timer == 0){
+        if (timer == 0) {
             return "0:00";
-        }else{
+        } else {
             int minutes = (int) Math.floor(this.timer / 60);
             return String.format("%s:%s", minutes, this.timer - (minutes * 60));
         }
@@ -84,5 +97,13 @@ public class TimerManagerLocal extends Thread implements TimerManager {
     @Override
     public void StopTimer() {
         timerRunning = false;
+    }
+
+    public void addListener(TimerListener listener) {
+        timerListeners.add(listener);
+    }
+
+    public void removeListener(TimerListener listener) {
+        timerListeners.remove(listener);
     }
 }
