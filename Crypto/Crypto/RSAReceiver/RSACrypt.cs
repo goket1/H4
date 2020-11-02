@@ -53,6 +53,37 @@ namespace RSAReceiver
             
         }
 
+        public void CreateKeyFromInput(Byte[] PublicKey, Byte[] Exponent)
+        {
+
+            using (var rsaCryptoServiceProvider = new RSACryptoServiceProvider(2048))
+            {
+                RSAParameters RSAKeyInfo = new RSAParameters();
+                
+                //Set RSAKeyInfo to the public key values. 
+                RSAKeyInfo.Modulus = PublicKey;
+                RSAKeyInfo.Exponent = Exponent;
+                
+                rsaCryptoServiceProvider.ImportParameters(RSAKeyInfo);
+                
+                var publicKeyfolder = Path.GetDirectoryName(publicKeyPath);
+                var privateKeyfolder = Path.GetDirectoryName(privateKeyPath);
+
+                if (!Directory.Exists(publicKeyfolder))
+                {
+                    Directory.CreateDirectory(publicKeyfolder);
+                }
+
+                if (!Directory.Exists(privateKeyfolder))
+                {
+                    Directory.CreateDirectory(privateKeyfolder);
+                }
+
+                File.WriteAllText(publicKeyPath, rsaCryptoServiceProvider.ToXmlString(false));
+            }
+        }
+
+
         public bool GenerateIfNotExists()
         {
             bool exists = File.Exists(privateKeyPath);
@@ -66,23 +97,24 @@ namespace RSAReceiver
 
         public byte[] Encrypt(byte[] plainText, bool oaep)
         {
-            byte[] plain;
+            byte[] cipherbytes;
 
             using (var rsaCryptoServiceProvider = new RSACryptoServiceProvider(2048))
             {
                 rsaCryptoServiceProvider.PersistKeyInCsp = false;                
-                rsaCryptoServiceProvider.FromXmlString(File.ReadAllText(privateKeyPath));
-                plain = rsaCryptoServiceProvider.Decrypt(plainText, oaep);
+                rsaCryptoServiceProvider.FromXmlString(File.ReadAllText(publicKeyPath));
+
+                cipherbytes = rsaCryptoServiceProvider.Encrypt(plainText, oaep);
             }
 
-            return plain;
+            return cipherbytes;
         }
 
         public byte[] Decrypt(byte[] encryptedData, bool oaep)
         {
             byte[] plain;
 
-            using (var rsaCryptoServiceProvider = new RSACryptoServiceProvider(2048))
+            using (var rsaCryptoServiceProvider = new RSACryptoServiceProvider())
             {
                 rsaCryptoServiceProvider.PersistKeyInCsp = false;                
                 rsaCryptoServiceProvider.FromXmlString(File.ReadAllText(privateKeyPath));
@@ -92,13 +124,14 @@ namespace RSAReceiver
             return plain;
         }
 
-        public string GetKeys(bool getPrivateKey)
+        public RSAParameters GetKeys(bool getPrivateKey)
         {
             using (var rsaCryptoServiceProvider = new RSACryptoServiceProvider(2048))
             {
                 rsaCryptoServiceProvider.PersistKeyInCsp = false;
                 rsaCryptoServiceProvider.FromXmlString(File.ReadAllText(privateKeyPath));
-                return rsaCryptoServiceProvider.ToXmlString(getPrivateKey);
+                RSAParameters rsaParameters = rsaCryptoServiceProvider.ExportParameters(getPrivateKey);
+                return rsaParameters;
             }
         }
     }

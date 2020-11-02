@@ -1,3 +1,4 @@
+using System;
 using System.Security.Cryptography;
 
 namespace RSAReceiver
@@ -6,8 +7,9 @@ namespace RSAReceiver
     {
         void GenerateKeys();
         bool GenerateIfNotExists();
+        void CreateKeyFromInput(Byte[] PublicKey, Byte[] Exponent);
         byte[] Encrypt(byte[] plainText, bool oaep);
         byte[] Decrypt(byte[] encryptedData, bool oaep);
-        string GetKeys(bool getPrivateKey);
+        RSAParameters GetKeys(bool getPrivateKey);
     }
 }
