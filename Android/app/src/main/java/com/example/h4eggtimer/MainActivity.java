@@ -13,8 +13,7 @@ import org.w3c.dom.Text;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Handler handler = new Handler();
-    public TimerManager timerManagerLocal = new TimerManagerLocal();
+    public TimerManagerLocal timerManagerLocal = new TimerManagerLocal();
     TextView timerTextView;
     Button startStopButton;
 
@@ -60,13 +59,11 @@ public class MainActivity extends AppCompatActivity {
         this.timerManagerLocal.StartTimer();
         this.toggleEggButtons(false);
         startStopButton.setText("Stop"); //set the text on Start / Stop button
-        this.timer();
     }
 
     public void StopTimer(){
         this.timerManagerLocal.StopTimer();
         this.toggleEggButtons(true);
-        handler.removeCallbacksAndMessages(null);
         startStopButton.setText("Start"); //set the text on Start / Stop button
     }
 
@@ -76,22 +73,5 @@ public class MainActivity extends AppCompatActivity {
         }else {
             this.StartTimer();
         }
-    }
-
-    public void timer(){
-        this.handler.postDelayed(new Runnable(){
-            @Override
-            public void run() {
-                timerManagerLocal.SubtractFromTime(1);
-                timerTextView.setText(timerManagerLocal.GetFormatedTime());
-                Log.d("Custom", String.format("Timer running value: %s formated: %s", timerManagerLocal.GetTimeLeft(), timerManagerLocal.GetFormatedTime()));
-                if(timerManagerLocal.GetTimeLeft() <= 0) {
-                    timerManagerLocal.SetRunning(false);
-                    StopTimer();
-                }else {
-                    handler.postDelayed(this, 1000);
-                }
-            }
-        },1000);
     }
 }

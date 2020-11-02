@@ -1,12 +1,31 @@
 package com.example.h4eggtimer;
 
+import android.os.Handler;
 import android.util.Log;
 
-public class TimerManagerLocal implements TimerManager {
+public class TimerManagerLocal extends Thread implements TimerManager {
 
     boolean timerRunning = false;
     Cookable cookable;
     int timer = 0;
+
+    @Override
+    public void run() {
+        Log.d("Custom", String.format("Timer started", GetTimeLeft(), GetFormatedTime()));
+        while(GetTimeLeft() >= 0){
+            if(this.timerRunning){
+                SubtractFromTime(1);
+                Log.d("Custom", String.format("Timer running value: %s formated: %s", GetTimeLeft(), GetFormatedTime()));
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+
+                }
+            }
+        }
+        SetRunning(false);
+        StopTimer();
+    }
 
     @Override
     public boolean TimerRunning() {
@@ -59,6 +78,7 @@ public class TimerManagerLocal implements TimerManager {
     @Override
     public void StartTimer() {
         timerRunning = true;
+        this.start();
     }
 
     @Override
