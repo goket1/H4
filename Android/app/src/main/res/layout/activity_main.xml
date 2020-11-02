@@ -34,42 +34,55 @@
             android:layout_width="match_parent"
             android:layout_height="94dp">
 
-            <Button
+            <ImageButton
                 android:id="@+id/buttonSoftBoiled"
                 android:layout_width="100dp"
                 android:layout_height="0dp"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="onButtonEggSelectedClicked"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_soft"
                 android:text="Soft boiled"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.026"
+                app:layout_constraintHorizontal_bias="0.054"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
 
-            <Button
+            <ImageButton
                 android:id="@+id/buttonMediumBoiled"
                 android:layout_width="100dp"
                 android:layout_height="0dp"
+                android:backgroundTint="#00FFFFFF"
                 android:onClick="onButtonEggSelectedClicked"
-                android:text="Smiling"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/buttonHardBoiled"
-                app:layout_constraintStart_toEndOf="@+id/buttonSoftBoiled"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <Button
-                android:id="@+id/buttonHardBoiled"
-                android:layout_width="100dp"
-                android:layout_height="0dp"
-                android:onClick="onButtonEggSelectedClicked"
-                android:text="Hard boiled"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_medium"
+                android:text="Medium boiled"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.973"
+                app:layout_constraintHorizontal_bias="0.498"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.0" />
+
+            <ImageButton
+                android:id="@+id/buttonHardBoiled"
+                android:layout_width="100dp"
+                android:layout_height="0dp"
+                android:backgroundTint="#00FFFFFF"
+                android:onClick="onButtonEggSelectedClicked"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_hard"
+                android:text="Hard boiled"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.945"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0" />
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <androidx.constraintlayout.widget.ConstraintLayout
@@ -113,12 +126,14 @@
             android:layout_height="59dp">
 
             <Button
-                android:id="@+id/buttonStart"
+                android:id="@+id/buttonStartStop"
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:layout_marginStart="32dp"
                 android:layout_marginEnd="32dp"
+                android:background="@drawable/roundbutton"
                 android:enabled="false"
+                android:onClick="onButtonStartStopClicked"
                 android:text="Start"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"

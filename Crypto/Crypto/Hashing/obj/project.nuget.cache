@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8Ck/5tGIsU5rtNA/BPj4QvKroURRtEquASr1eyZeOZIEJf1ZO8eoy3Cau/bT8myfTK8mCEOY99B4cCeqGelFQw==",
+  "dgSpecHash": "bhsk5TnyQ5wnwisOLA/oMPw+w5QwyIRhZXW6h4iBp9GPbitGQJHh9vwXhiCSz56SKrtbUR7PMXjFvCFjRnt+xA==",
   "success": true,
-  "projectFilePath": "/home/user/hovedforløb/H4/Crypto/Crypto/Hashing/Hashing.csproj",
+  "projectFilePath": "/home/user/hovedforloeb/H4/Crypto/Crypto/Hashing/Hashing.csproj",
   "expectedPackageFiles": [
     "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
   ],

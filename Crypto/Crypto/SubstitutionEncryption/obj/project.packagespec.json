@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
+    "projectUniqueName": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
     "projectName": "SubstitutionEncryption",
-    "projectPath": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
-    "outputPath": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/obj/",
+    "projectPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
+    "outputPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"

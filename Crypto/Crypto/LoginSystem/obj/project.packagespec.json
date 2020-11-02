@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
+    "projectUniqueName": "/home/user/hovedforloeb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
     "projectName": "LoginSystem",
-    "projectPath": "/home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
-    "outputPath": "/home/user/hovedforløb/H4/Crypto/Crypto/LoginSystem/obj/",
+    "projectPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
+    "outputPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/LoginSystem/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.1"

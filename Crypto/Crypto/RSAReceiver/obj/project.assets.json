@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/user/hovedforløb/H4/Crypto/Crypto/RSAReceiver/RSAReceiver.csproj",
+      "projectUniqueName": "/home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSAReceiver.csproj",
       "projectName": "RSAReceiver",
-      "projectPath": "/home/user/hovedforløb/H4/Crypto/Crypto/RSAReceiver/RSAReceiver.csproj",
+      "projectPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSAReceiver.csproj",
       "packagesPath": "/home/user/.nuget/packages/",
-      "outputPath": "/home/user/hovedforløb/H4/Crypto/Crypto/RSAReceiver/obj/",
+      "outputPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/user/.nuget/NuGet/NuGet.Config"

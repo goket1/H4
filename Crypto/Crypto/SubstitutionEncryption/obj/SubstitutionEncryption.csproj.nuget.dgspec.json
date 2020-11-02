@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj": {}
+    "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj": {}
   },
   "projects": {
-    "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj": {
+    "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
+        "projectUniqueName": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
         "projectName": "SubstitutionEncryption",
-        "projectPath": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
+        "projectPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
         "packagesPath": "/home/user/.nuget/packages/",
-        "outputPath": "/home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/obj/",
+        "outputPath": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/user/.nuget/NuGet/NuGet.Config"
