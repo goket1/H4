@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "a3vmkQfrdEXTKeUhk3t+4TE+ZEIJcR8jT7r/mBNFCRR0xs+rCqVq5CPWtcDI4lN0w1pv6PskLoenLujNEJT/bw==",
+  "dgSpecHash": "HQrwT9+HwAEeufyBV9zWmLCzQYp5tcjphD8Ml5UDYHRntEeU0MsLF6jSiV8DOCfU5t3lZuO/R/JhxjJyYsrHsA==",
   "success": true,
   "projectFilePath": "/home/user/hovedforloeb/H4/Crypto/Crypto/LoginSystem/LoginSystem.csproj",
   "expectedPackageFiles": [
     "/home/user/.nuget/packages/npgsql/5.0.0-preview1/npgsql.5.0.0-preview1.nupkg.sha512",
     "/home/user/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
-    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.7/microsoft.netcore.app.host.linux-x64.3.1.7.nupkg.sha512"
   ],
   "logs": []
 }

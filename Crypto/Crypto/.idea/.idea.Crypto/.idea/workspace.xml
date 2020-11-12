@@ -8,6 +8,7 @@
     <projectFile>LoginSystem/LoginSystem.csproj</projectFile>
     <projectFile>SymmetricEncryption/SymmetricEncryption.csproj</projectFile>
     <projectFile>RSAReceiver/RSAReceiver.csproj</projectFile>
+    <projectFile>SocketServerTest/SocketServerTest.csproj</projectFile>
   </component>
   <component name="BranchesTreeState">
     <expand>
@@ -29,9 +30,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6113dcef-e198-4980-b50b-7ca5c875ae99" name="Default Changelist" comment="RSA program works">
-      <change beforePath="$PROJECT_DIR$/../../Android/app/src/main/java/com/example/h4eggtimer/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/app/src/main/java/com/example/h4eggtimer/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/app/src/main/java/com/example/h4eggtimer/TimerManagerLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/app/src/main/java/com/example/h4eggtimer/TimerManagerLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServerTest/IUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServerTest/PhoneUser.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SocketServerTest/SocketUser.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Crypto/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Crypto.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Crypto.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/CryptoRandomVSRandom.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/CryptoRandomVSRandom/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/bin/Debug/netcoreapp3.1/Hashing.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Debug/netcoreapp3.1/Hashing.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/Hashing.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hashing/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Hashing/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/Debug/netcoreapp3.1/LoginSystem.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/Debug/netcoreapp3.1/LoginSystem.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/LoginSystem.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/LoginSystem.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/LoginSystem.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/LoginSystem.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LoginSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/LoginSystem/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/Debug/netcoreapp3.1/RSAReceiver.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/Debug/netcoreapp3.1/RSAReceiver.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/RSAReceiver.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/RSAReceiver.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/RSAReceiver.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/RSAReceiver.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RSAReceiver/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/RSAReceiver/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.dll" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/SubstitutionEncryption.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SubstitutionEncryption/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SubstitutionEncryption/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/Debug/netcoreapp3.1/SymmetricEncryption.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/Debug/netcoreapp3.1/SymmetricEncryption.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/SymmetricEncryption.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SymmetricEncryption/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/SymmetricEncryption/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,19 +108,20 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3A0F354-F9A7-4A6A-BFB2-1B6DAC71D3BC/43/e247fea5/KeyedHashAlgorithm.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/40ABABE4-FE43-4005-B500-202497DD784B/27/b0ff1100/IPHostEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0C8B3A1-50D4-4F65-8D6A-4C0648F22AE5/bd/5298e8b9/IPEndPoint.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/E3A0F354-F9A7-4A6A-BFB2-1B6DAC71D3BC/25/9d4d91aa/HMAC.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSACrypt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0C8B3A1-50D4-4F65-8D6A-4C0648F22AE5/1c/95842f7a/EndPoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CCF65AA4-BE38-4D84-85A7-AB7181300CB7/55/f7d4bd50/Socket.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/B1926F6D-9931-4C35-95AE-2396D154FD49/33/55914dea/HMACSHA1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/54E51DB7-4175-4089-91E8-64EE775B8BC9/1B/NpgsqlDataReader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SubstitutionEncryption/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SubstitutionEncryption/Decrypter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SubstitutionEncryption/Encrypter.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/87DBB896-6B20-4A14-9B6A-7AB43642646D/b9/d74be909/AsyncCallback.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FD95449-DB6C-4738-91D5-01EE7F6E5E44/c4/b1923a8b/SHA512CryptoServiceProvider.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSACrypt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FD95449-DB6C-4738-91D5-01EE7F6E5E44/f6/1855adc9/CspParameters.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSACrypt.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSACrypt.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/1FD95449-DB6C-4738-91D5-01EE7F6E5E44/f6/1855adc9/CspParameters.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/C0C8B3A1-50D4-4F65-8D6A-4C0648F22AE5/92/f701322f/IPAddress.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -85,10 +151,14 @@
         <option value="$PROJECT_DIR$/LoginSystem/Hash.cs" />
         <option value="$PROJECT_DIR$/LoginSystem/Program.cs" />
         <option value="$PROJECT_DIR$/SymmetricEncryption/Crypt.cs" />
-        <option value="$PROJECT_DIR$/SymmetricEncryption/Program.cs" />
         <option value="$PROJECT_DIR$/RSAReceiver/IRSACrypt.cs" />
         <option value="$PROJECT_DIR$/RSAReceiver/RSACrypt.cs" />
         <option value="$PROJECT_DIR$/RSAReceiver/Program.cs" />
+        <option value="$PROJECT_DIR$/SocketServerTest/SocketUser.cs" />
+        <option value="$PROJECT_DIR$/SocketServerTest/PhoneUser.cs" />
+        <option value="$PROJECT_DIR$/SocketServerTest/IUser.cs" />
+        <option value="$PROJECT_DIR$/SocketServerTest/Program.cs" />
+        <option value="$PROJECT_DIR$/SymmetricEncryption/Program.cs" />
       </list>
     </option>
   </component>
@@ -105,10 +175,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected=".NET Project.RSAReceiver">
+  <component name="RunManager" selected=".NET Project.SymmetricEncryption">
     <configuration name="Crypto" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -217,6 +287,24 @@
         <option name="Build" />
       </method>
     </configuration>
+    <configuration name="SocketServerTest" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/SocketServerTest/SocketServerTest.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
     <configuration name="SymmetricEncryption" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -251,7 +339,11 @@
       <workItem from="1603791499412" duration="14839000" />
       <workItem from="1603867381180" duration="10052000" />
       <workItem from="1604244472414" duration="30000" />
-      <workItem from="1604301954687" duration="18322000" />
+      <workItem from="1604301954687" duration="29824000" />
+      <workItem from="1604493955401" duration="2718000" />
+      <workItem from="1604498126181" duration="2694000" />
+      <workItem from="1604580372786" duration="599000" />
+      <workItem from="1605083483342" duration="4910000" />
     </task>
     <task id="LOCAL-00001" summary="Added a new solution for user login system assignment">
       <created>1603791564483</created>
@@ -341,98 +433,125 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="744" y="270" key="FileChooserDialogImpl/0.0.1920.1052@0.0.1920.1052" timestamp="1603787788480" />
-    <state width="1874" height="284" key="GridCell.Tab.0.bottom" timestamp="1604319694757">
+    <state width="906" height="292" key="GridCell.Tab.0.bottom" timestamp="1605166111562">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1604319694757" />
-    <state width="1874" height="284" key="GridCell.Tab.0.center" timestamp="1604319694755">
+    <state width="1874" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1604475044608" />
+    <state width="1874" height="369" key="GridCell.Tab.0.bottom/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964707" />
+    <state width="906" height="292" key="GridCell.Tab.0.bottom/1920.0.1920.1080/0.0.1920.1052@0.0.1920.1052" timestamp="1605166111562" />
+    <state width="906" height="292" key="GridCell.Tab.0.center" timestamp="1605166111562">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1604319694755" />
-    <state width="1874" height="284" key="GridCell.Tab.0.left" timestamp="1604319694754">
+    <state width="1874" height="284" key="GridCell.Tab.0.center/0.0.1920.1052@0.0.1920.1052" timestamp="1604475044606" />
+    <state width="1874" height="369" key="GridCell.Tab.0.center/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964699" />
+    <state width="906" height="292" key="GridCell.Tab.0.center/1920.0.1920.1080/0.0.1920.1052@0.0.1920.1052" timestamp="1605166111562" />
+    <state width="906" height="292" key="GridCell.Tab.0.left" timestamp="1605166111562">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1604319694754" />
-    <state width="1874" height="284" key="GridCell.Tab.0.right" timestamp="1604319694756">
+    <state width="1874" height="284" key="GridCell.Tab.0.left/0.0.1920.1052@0.0.1920.1052" timestamp="1604475044605" />
+    <state width="1874" height="369" key="GridCell.Tab.0.left/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964698" />
+    <state width="906" height="292" key="GridCell.Tab.0.left/1920.0.1920.1080/0.0.1920.1052@0.0.1920.1052" timestamp="1605166111562" />
+    <state width="906" height="292" key="GridCell.Tab.0.right" timestamp="1605166111562">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state width="1874" height="284" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1604319694756" />
-    <state width="1874" height="359" key="GridCell.Tab.1.bottom" timestamp="1604319319875">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="284" key="GridCell.Tab.0.right/0.0.1920.1052@0.0.1920.1052" timestamp="1604475044607" />
+    <state width="1874" height="369" key="GridCell.Tab.0.right/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964704" />
+    <state width="906" height="292" key="GridCell.Tab.0.right/1920.0.1920.1080/0.0.1920.1052@0.0.1920.1052" timestamp="1605166111562" />
+    <state width="1874" height="369" key="GridCell.Tab.1.bottom" timestamp="1604496964717">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.1.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319875" />
-    <state width="1874" height="359" key="GridCell.Tab.1.center" timestamp="1604319319872">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.1.bottom/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964717" />
+    <state width="1874" height="369" key="GridCell.Tab.1.center" timestamp="1604496964711">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.1.center/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319872" />
-    <state width="1874" height="359" key="GridCell.Tab.1.left" timestamp="1604319319869">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.1.center/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964711" />
+    <state width="1874" height="369" key="GridCell.Tab.1.left" timestamp="1604496964709">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.1.left/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319869" />
-    <state width="1874" height="359" key="GridCell.Tab.1.right" timestamp="1604319319874">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.1.left/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964709" />
+    <state width="1874" height="369" key="GridCell.Tab.1.right" timestamp="1604496964715">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.1.right/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319874" />
-    <state width="1874" height="359" key="GridCell.Tab.2.bottom" timestamp="1604319319881">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.1.right/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964715" />
+    <state width="1874" height="369" key="GridCell.Tab.2.bottom" timestamp="1604496964727">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.2.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319881" />
-    <state width="1874" height="359" key="GridCell.Tab.2.center" timestamp="1604319319880">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.2.bottom/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964727" />
+    <state width="1874" height="369" key="GridCell.Tab.2.center" timestamp="1604496964720">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.2.center/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319880" />
-    <state width="1874" height="359" key="GridCell.Tab.2.left" timestamp="1604319319876">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.2.center/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964720" />
+    <state width="1874" height="369" key="GridCell.Tab.2.left" timestamp="1604496964718">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.2.left/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319876" />
-    <state width="1874" height="359" key="GridCell.Tab.2.right" timestamp="1604319319881">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.2.left/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964718" />
+    <state width="1874" height="369" key="GridCell.Tab.2.right" timestamp="1604496964723">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.2.right/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319881" />
-    <state width="1874" height="359" key="GridCell.Tab.3.bottom" timestamp="1604319319882">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.2.right/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964723" />
+    <state width="1874" height="369" key="GridCell.Tab.3.bottom" timestamp="1604496964734">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.3.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319882" />
-    <state width="1874" height="359" key="GridCell.Tab.3.center" timestamp="1604319319882">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.3.bottom/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964734" />
+    <state width="1874" height="369" key="GridCell.Tab.3.center" timestamp="1604496964732">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.3.center/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319882" />
-    <state width="1874" height="359" key="GridCell.Tab.3.left" timestamp="1604319319882">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.3.center/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964731" />
+    <state width="1874" height="369" key="GridCell.Tab.3.left" timestamp="1604496964730">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.3.left/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319882" />
-    <state width="1874" height="359" key="GridCell.Tab.3.right" timestamp="1604319319882">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.3.left/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964730" />
+    <state width="1874" height="369" key="GridCell.Tab.3.right" timestamp="1604496964733">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.3.right/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319882" />
-    <state width="1874" height="359" key="GridCell.Tab.4.bottom" timestamp="1604319319883">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.3.right/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964733" />
+    <state width="1874" height="369" key="GridCell.Tab.4.bottom" timestamp="1604496964754">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.4.bottom/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319883" />
-    <state width="1874" height="359" key="GridCell.Tab.4.center" timestamp="1604319319883">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.4.bottom/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964754" />
+    <state width="1874" height="369" key="GridCell.Tab.4.center" timestamp="1604496964748">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.4.center/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319883" />
-    <state width="1874" height="359" key="GridCell.Tab.4.left" timestamp="1604319319882">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.4.center/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964748" />
+    <state width="1874" height="369" key="GridCell.Tab.4.left" timestamp="1604496964740">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.4.left/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319882" />
-    <state width="1874" height="359" key="GridCell.Tab.4.right" timestamp="1604319319883">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.4.left/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964740" />
+    <state width="1874" height="369" key="GridCell.Tab.4.right" timestamp="1604496964750">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state width="1874" height="359" key="GridCell.Tab.4.right/0.0.1920.1052@0.0.1920.1052" timestamp="1604319319883" />
-    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size" timestamp="1603884545809">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state width="1874" height="369" key="GridCell.Tab.4.right/0.0.3840.1052@0.0.3840.1052" timestamp="1604496964750" />
+    <state x="194" y="223" width="986" height="491" key="Rider.ProjectTemplateDialog.Size" timestamp="1604488341584">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
-    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1052@0.0.1920.1052" timestamp="1603884545809" />
-    <state x="244" y="139" key="RiderGenerateDialog" timestamp="1604308107939">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state x="556" y="259" width="808" height="532" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1052@0.0.1920.1052" timestamp="1604473563517" />
+    <state x="194" y="223" width="986" height="491" key="Rider.ProjectTemplateDialog.Size/0.0.3840.1052@0.0.3840.1052" timestamp="1604488341584" />
+    <state x="488" y="139" key="RiderGenerateDialog" timestamp="1604478232516">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state x="244" y="139" key="RiderGenerateDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1604308107939" />
-    <state x="457" y="159" key="SettingsEditor" timestamp="1604244495991">
-      <screen x="0" y="0" width="1920" height="1052" />
+    <state x="488" y="139" key="RiderGenerateDialog/0.0.3840.1052@0.0.3840.1052" timestamp="1604478232516" />
+    <state x="360" y="152" key="SettingsEditor" timestamp="1604478251151">
+      <screen x="0" y="0" width="3840" height="1052" />
     </state>
     <state x="457" y="159" key="SettingsEditor/0.0.1920.1052@0.0.1920.1052" timestamp="1604244495991" />
+    <state x="360" y="152" key="SettingsEditor/0.0.3840.1052@0.0.3840.1052" timestamp="1604478251151" />
     <state x="100" y="100" width="1720" height="852" key="VCS.FileHistoryDialog" timestamp="1604310277747">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
@@ -461,10 +580,10 @@
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
     <state x="765" y="437" width="389" height="184" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1052@0.0.1920.1052" timestamp="1603788655652" />
-    <state x="624" y="240" key="run.anything.popup" timestamp="1603878262500">
+    <state x="624" y="240" key="run.anything.popup" timestamp="1604473980161">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>
-    <state x="624" y="240" key="run.anything.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1603878262500" />
+    <state x="624" y="240" key="run.anything.popup/0.0.1920.1052@0.0.1920.1052" timestamp="1604473980161" />
     <state x="623" y="233" width="672" height="678" key="search.everywhere.popup" timestamp="1604308956510">
       <screen x="0" y="0" width="1920" height="1052" />
     </state>

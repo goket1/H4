@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "V1KyTskDalXZQoMBbUiG32KiBPqjt3/Hn9PjoX5aPYIysamnNSNxB3aQnZtFe+YjRT9F/SkuOD9L2RXibuWsXw==",
+  "dgSpecHash": "6giQBsWZvZELWH5AxefQ2WSkKvcO24jhFnL2J7MTt9yvv4OvYAszc/CQ7p93q2xJJomhHwA4SaHVHqmtEkZQrg==",
   "success": true,
   "projectFilePath": "/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/CryptoRandomVSRandom.csproj",
   "expectedPackageFiles": [
-    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.7/microsoft.netcore.app.host.linux-x64.3.1.7.nupkg.sha512"
   ],
   "logs": []
 }

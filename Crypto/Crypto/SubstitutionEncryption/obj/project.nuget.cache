@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "9k+D88fb5XM6Ge2xYzzkVu6ft7ol3cpmcJ3p8g74WqjCff8i9GS5aofpL+Fn8ZZzfBLVOXc99RaJzKPXyf1OrQ==",
+  "dgSpecHash": "Z4peYoc/8kSmNtwlG+4GlwkXMfb/VZsU8ttGMByHAwrALwn/XxMagubrA6pfMzMxU0hKj/9DmiVrM30nBdtLaQ==",
   "success": true,
   "projectFilePath": "/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/SubstitutionEncryption.csproj",
   "expectedPackageFiles": [
-    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.7/microsoft.netcore.app.host.linux-x64.3.1.7.nupkg.sha512"
   ],
   "logs": []
 }

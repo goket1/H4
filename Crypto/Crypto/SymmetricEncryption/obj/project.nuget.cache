@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "CbHld50QPiGGUuFfcQi/L6Hb+BoEQ4xghsJbn7yuljH1dI2zQJZFVXsCiYl7LR+XtfydoXohITWqz3oj+i0WlQ==",
+  "dgSpecHash": "fXxBpN70CkLGrcbJ2c/26xWyTIU1Xotz0HubCASHmzMY49NifzpJZ3ILCxCm03yc6CvsOVvWAIzpbNGx7z3M4w==",
   "success": true,
   "projectFilePath": "/home/user/hovedforloeb/H4/Crypto/Crypto/SymmetricEncryption/SymmetricEncryption.csproj",
   "expectedPackageFiles": [
-    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.7/microsoft.netcore.app.host.linux-x64.3.1.7.nupkg.sha512"
   ],
   "logs": []
 }

@@ -57,6 +57,21 @@
           </e>
         </e>
       </e>
+      <e p="SocketServerTest" t="IncludeRecursive">
+        <e p="IUser.cs" t="Include" />
+        <e p="PhoneUser.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="SocketServerTest.csproj" t="IncludeRecursive" />
+        <e p="SocketUser.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="SocketServerTest.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="SubstitutionEncryption" t="IncludeRecursive">
         <e p="Decrypter.cs" t="Include" />
         <e p="Encrypter.cs" t="Include" />

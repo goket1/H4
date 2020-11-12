@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "KQr4Zx78M9cyoX00QVPQvc1b/683iHMsgnkmtPWe2yIwOmE/Ap3hbXBJtDBwQX3+VS/cw/qFf/KjulwnBMLwEQ==",
+  "dgSpecHash": "/VMZctsY4lPR1DM2NFOzaOXjMrWxZn8/x99F1OUtjytMJBPUu465g2xPUe9a7h9r8n/+7wZ3IiBp4/nz4M91Gg==",
   "success": true,
   "projectFilePath": "/home/user/hovedforloeb/H4/Crypto/Crypto/RSAReceiver/RSAReceiver.csproj",
   "expectedPackageFiles": [
-    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.8/microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512"
+    "/home/user/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.2/microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
+    "/home/user/.nuget/packages/microsoft.netcore.app.host.linux-x64/3.1.7/microsoft.netcore.app.host.linux-x64.3.1.7.nupkg.sha512"
   ],
   "logs": []
 }

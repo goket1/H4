@@ -33,7 +33,7 @@ namespace SymmetricEncryption
 
         public static string FormatByteArray(byte[] byteArray)
         {
-            return $"Ascii:{Encoding.ASCII.GetString(byteArray)}\nHex:{BitConverter.ToString(byteArray)}";
+            return $"Ascii:{Encoding.ASCII.GetString(byteArray)}\nHex:{BitConverter.ToString(byteArray)}\nBase64:{ System.Convert.ToBase64String(byteArray)}";
         }
         
         static void Main(string[] args)

@@ -38,7 +38,11 @@
       "downloadDependencies": [
         {
           "name": "Microsoft.AspNetCore.App.Ref",
-          "version": "[3.1.8, 3.1.8]"
+          "version": "[3.1.2, 3.1.2]"
+        },
+        {
+          "name": "Microsoft.NETCore.App.Host.linux-x64",
+          "version": "[3.1.7, 3.1.7]"
         }
       ],
       "frameworkReferences": {
@@ -46,7 +50,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.108/RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.100-rc.2.20479.15/RuntimeIdentifierGraph.json"
     }
   }
 }

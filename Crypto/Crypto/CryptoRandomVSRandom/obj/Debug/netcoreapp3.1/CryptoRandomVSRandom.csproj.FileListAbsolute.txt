@@ -9,3 +9,14 @@
 /home/user/hovedforløb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.AssemblyInfo.cs
 /home/user/hovedforløb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll
 /home/user/hovedforløb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.deps.json
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.runtimeconfig.json
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.runtimeconfig.dev.json
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/bin/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.csprojAssemblyReference.cache
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.AssemblyInfoInputs.cache
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.AssemblyInfo.cs
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.dll
+/home/user/hovedforloeb/H4/Crypto/Crypto/CryptoRandomVSRandom/obj/Debug/netcoreapp3.1/CryptoRandomVSRandom.pdb

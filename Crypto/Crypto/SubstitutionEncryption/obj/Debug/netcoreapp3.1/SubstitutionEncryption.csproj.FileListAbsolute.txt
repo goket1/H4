@@ -9,3 +9,14 @@
 /home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.AssemblyInfo.cs
 /home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.dll
 /home/user/hovedforløb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.pdb
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.deps.json
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.runtimeconfig.json
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.runtimeconfig.dev.json
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.dll
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/bin/Debug/netcoreapp3.1/SubstitutionEncryption.pdb
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.csprojAssemblyReference.cache
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.AssemblyInfoInputs.cache
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.AssemblyInfo.cs
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.dll
+/home/user/hovedforloeb/H4/Crypto/Crypto/SubstitutionEncryption/obj/Debug/netcoreapp3.1/SubstitutionEncryption.pdb
