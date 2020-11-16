@@ -125,14 +125,41 @@ create table Earmark(
 );
 
 create table AnimalType(
-    Id serial,
-    Name text
+    Id int,
+    Name text,
+    primary key (Id)
 );
 
 create table Animal(
-    Earmark Earmark,
+    Earmark int,
     Sex bool, -- Triggered?
-    
+    Birth timestamp,
+    Death timestamp,
+    Type int,
+    primary key (Earmark),
+    foreign key (Type) references AnimalType,
+    foreign key (Earmark) references Earmark(Id)
+);
 
-    primary key (Earmark)
-)
+create table AnimalProduce(
+    Mother int,
+    Father int,
+    Child int,
+    primary key (Mother, Father, Child),
+    foreign key (Mother) references Animal(Earmark)
+);
+
+create table AnimalBox(
+    MoveInTime timestamp,
+    MoveOutTime timestamp,
+    Animal int,
+    Box int,
+    primary key (MoveInTime, MoveOutTime, Animal, Box),
+    foreign key (Animal) references Animal(Earmark),
+    foreign key (Box) references Box(No)
+);
+
+-- Test data
+insert into animaltype(Id, Name) values (1, 'Jersey');
+insert into earmark(id, color, chrno) VALUES (1, 'red', 34938994);
+insert into Animal(Earmark, Sex, Birth, Death, Type) values (1, false, '01-01-2000', now(), 1);
