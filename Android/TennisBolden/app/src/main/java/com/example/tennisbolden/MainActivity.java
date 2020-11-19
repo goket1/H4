@@ -12,6 +12,7 @@ import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
 import android.view.View;
+import android.view.animation.Animation;
 import android.view.animation.TranslateAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     SensorManager sensorManager = null;
     TextView sensorTextView = null;
     ImageView tennisBallImageView = null;
+    TranslateAnimation animation = null;
 
     List list;
 
@@ -36,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
     private float posX = 0;
     private float posY = 0;
+
+    private float lastPosX = 0;
+    private float lastPosY = 0;
+
     //endregion
 
     SensorEventListener sensorEventListener = new SensorEventListener() {
@@ -93,10 +99,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void MoveTennisBall(float x, float y) {
-        // Set the last position for the animation
-        float lastPosX = posX;
-        float lastPosY = posY;
-
         // Find the new position
         posX += x * accelerationAmplification;
         posY -= y * accelerationAmplification;
@@ -115,19 +117,54 @@ public class MainActivity extends AppCompatActivity {
             posY = maxY;
         }
 
+        if(animation == null){
+            RunAnimation();
+        }else if(animation.hasEnded()){
+            RunAnimation();
+        }
+
+
+
+/*
+        while(!animation.hasEnded()){
+
+        }
         // Set the position
-        // tennisBallImageView.setX(posX);
-        // tennisBallImageView.setY(posY);
-
-        TranslateAnimation animation = new TranslateAnimation(lastPosX, posX,
-                lastPosY, posY);          //  new TranslateAnimation(xFrom,xTo, yFrom,yTo)
-        animation.setDuration(5);         // animation duration
-        //animation.setFillAfter(true);
-
-        tennisBallImageView.startAnimation(animation);  // start animation
+        tennisBallImageView.setX(posX);
+        tennisBallImageView.setY(posY);*/
 
         // Display the position to the user with the textview
         sensorTextView.setText("x: " + posX + "\ny: " + posY);
+    }
+
+    private void RunAnimation(){
+        // Set the last position for the animation
+        float tempLastPosX = posX;
+        float templastPosY = posY;
+        animation = new TranslateAnimation(lastPosX, posX,
+                lastPosY, posY);          //  new TranslateAnimation(xFrom,xTo, yFrom,yTo)
+        animation.setDuration(20);         // animation duration
+        animation.setFillAfter(true);
+        animation.setAnimationListener(new TranslateAnimation.AnimationListener() {
+
+            @Override
+            public void onAnimationStart(Animation animation) {
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                // Set the last position for the animation
+                lastPosX = tempLastPosX;
+                lastPosY = templastPosY;
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
+        // Start animation
+        tennisBallImageView.startAnimation(animation);
     }
 
 
