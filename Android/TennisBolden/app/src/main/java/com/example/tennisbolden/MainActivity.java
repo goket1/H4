@@ -59,7 +59,11 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
         // Get a SensorManager instance
         sensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
 
@@ -117,27 +121,22 @@ public class MainActivity extends AppCompatActivity {
             posY = maxY;
         }
 
-        if(animation == null){
+/*        if(animation == null){
             RunAnimation();
         }else if(animation.hasEnded()){
             RunAnimation();
-        }
+        }*/
 
 
-
-/*
-        while(!animation.hasEnded()){
-
-        }
         // Set the position
         tennisBallImageView.setX(posX);
-        tennisBallImageView.setY(posY);*/
+        tennisBallImageView.setY(posY);
 
         // Display the position to the user with the textview
         sensorTextView.setText("x: " + posX + "\ny: " + posY);
     }
 
-    private void RunAnimation(){
+   /* private void RunAnimation(){
         // Set the last position for the animation
         float tempLastPosX = posX;
         float templastPosY = posY;
@@ -165,7 +164,7 @@ public class MainActivity extends AppCompatActivity {
         });
         // Start animation
         tennisBallImageView.startAnimation(animation);
-    }
+    }*/
 
 
     @Override
