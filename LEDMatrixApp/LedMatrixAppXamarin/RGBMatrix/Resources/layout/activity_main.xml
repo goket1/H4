@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/linearLayout1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout2">
+        <TextView
+            android:text="Host:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewDisplayHost"
+            android:gravity="center_vertical" />
+        <EditText
+            android:layout_width="225dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextDisplayHost"
+            android:text="192.168.212.109"
+            android:layout_marginRight="0.0dp"
+            android:layout_marginLeft="0.0dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextDisplayHostPort"
+            android:text="5000"
+            android:layout_marginRight="0.0dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout3">
+        <TextView
+            android:text="Command:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewDisplayCommand"
+            android:gravity="center_vertical" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextDisplayCommand"
+            android:text="1:16:16:255:0:0|"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayout4">
+        <TextView
+            android:text="Color:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewColor"
+            android:gravity="center_vertical" />
+        <RelativeLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/relativeLayoutColorBox"
+            android:background="#ff0000"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayoutRed">
+        <TextView
+            android:text="Red:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewRed"
+            android:gravity="center_vertical" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/seekBarRed"
+            android:max="255"
+            android:progress="255" />
+
+    </LinearLayout>
+        <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayoutGreen">
+        <TextView
+            android:text="Green:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewGreen"
+            android:gravity="center_vertical" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/seekBarGreen"
+            android:max="255"
+            android:progress="255" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/linearLayoutBlue">
+        <TextView
+            android:text="Blue:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="125dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textViewBlue"
+            android:gravity="center_vertical" />
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/seekBarBlue"
+            android:max="255"
+            android:progress="255" />
+    </LinearLayout>
+
+    <Button
+    android:text="Reset"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/buttonReset" />
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridLayoutMatrix"
+        android:padding="5dp"/>
+
+</LinearLayout>
